@@ -23,7 +23,7 @@ const Product = () => {
 
   useEffect(() => {
     fetchProductData();
-  }, [productId, products]);
+  }, [productId, products])
 
   return productData ? (
     <div className="border-t-2 pt-10 transition-opacity ease-in duration-500 opacity-100">
@@ -66,55 +66,17 @@ const Product = () => {
             {productData.description}
           </p>
 
-          <div className="mt-5 bg-gray-50 p-4 rounded-md">
-            <h3 className="font-medium text-gray-700 mb-2">Available Sizes:</h3>
-            <div className="grid grid-cols-2 gap-2">
-              <div className="flex justify-between items-center border-b pb-2">
-                <span className="font-medium">S</span>
-                <span className="text-gray-600">250gm</span>
-              </div>
-              <div className="flex justify-between items-center border-b pb-2">
-                <span className="font-medium">M</span>
-                <span className="text-gray-600">500gm</span>
-              </div>
-              <div className="flex justify-between items-center border-b pb-2">
-                <span className="font-medium">L</span>
-                <span className="text-gray-600">1Kg</span>
-              </div>
-              <div className="flex justify-between items-center border-b pb-2">
-                <span className="font-medium">XL</span>
-                <span className="text-gray-600">2kg</span>
-              </div>
-              <div className="flex justify-between items-center border-b pb-2">
-                <span className="font-medium">XXL</span>
-                <span className="text-gray-600">5Kg</span>
-              </div>
-            </div>
+          {/* Improved spacing for ADD TO CART button */}
+          <div className="mt-8 mb-6">
+            <button
+              onClick={() => addToCart(productData._id)}
+              className="bg-black text-white px-10 py-4 text-sm active:bg-gray-700 hover:bg-gray-800 transition-colors"
+            >
+              ADD TO CART
+            </button>
           </div>
 
-          <div className="flex flex-col gap-4 my-8">
-            <p>Select Size</p>
-            <div className="flex gap-2">
-              {productData.sizes.map((item, index) => (
-                <button
-                  onClick={() => setSize(item)}
-                  className={`border py-2 px-4 bg-gray-100 ${
-                    item === size ? "border-orange-500" : ""
-                  }`}
-                  key={index}
-                >
-                  {item}
-                </button>
-              ))}
-            </div>
-          </div>
-          <button
-            onClick={() => addToCart(productData._id, size)}
-            className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700"
-          >
-            ADD TO CART
-          </button>
-          <hr className="mt-8 sm:w-4/5" />
+          <hr className="mt-4 sm:w-4/5" />
           <div className="text-sm text-gray-500 mt-5 flex flex-col gap-1">
             <p>100% Original product.</p>
             <p>Cash on delivery is available on this product.</p>

@@ -19,6 +19,8 @@ const Login = lazy(() => import("./pages/Login"));
 const PlaceOrder = lazy(() => import("./pages/PlaceOrder"));
 const Orders = lazy(() => import("./pages/Orders"));
 
+
+
 const App = () => {
   return (
     <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
