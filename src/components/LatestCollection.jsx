@@ -139,24 +139,60 @@ const LatestCollection = () => {
             className="w-full h-[600px] object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent flex items-center">
-            <div className="ml-8 sm:ml-16 max-w-lg text-white">
-              Veborg Organic Product Descriptions Neem Powder Sustainably
-              Harvested Our neem is carefully harvested from organic farms in
-              India, processed using traditional methods that preserve its
-              natural potency, and tested for maximum purity and efficacy.
-              Moringa Powder Nature's Nutritional Powerhouse Our moringa leaves
-              are hand-picked at peak freshness from sustainable farms, gently
-              dried to preserve their exceptional nutrient profile, and milled
-              into fine powder to deliver maximum bioavailability. Orange Peel
-              Powder Citrus Vitality Our orange peels are sourced from
-              sun-ripened organic oranges, carefully dried to lock in essential
-              oils and beneficial compounds, then finely ground to create a
-              versatile powder rich in natural antioxidants. Rose Petal Powder
-              Botanical Elegance Our rose petals are thoughtfully harvested at
-              the height of bloom, naturally dried to maintain their delicate
-              fragrance and therapeutic properties, then transformed into a fine
-              powder that captures the essence of pure rose.RetryClaude can make
-              mistakes. Please double-check responses.
+            <div className="py-6 px-4 sm:px-8 md:px-12 max-w-lg text-white">
+              <h2 className="text-xl font-bold mb-6">
+                Veborg Organic Product Descriptions
+              </h2>
+
+              <div className="grid md:grid-cols-2 gap-6">
+                {/* Neem Powder */}
+                <div className="flex flex-col items-start p-4 bg-white bg-opacity-80 rounded-xl shadow-md">
+                  <h3 className="text-xl font-bold mb-1">Neem Powder</h3>
+                  <p className="text-sm font-semibold text-green-700 mb-1">
+                    Sustainably Harvested
+                  </p>
+                  <p className="text-sm text-gray-700">
+                    Harvested from organic farms in India and processed
+                    traditionally to preserve purity and potency.
+                  </p>
+                </div>
+
+                {/* Moringa Powder */}
+                <div className="flex flex-col items-start p-4 bg-white bg-opacity-80 rounded-xl shadow-md">
+                  <h3 className="text-xl font-bold mb-1">Moringa Powder</h3>
+                  <p className="text-sm font-semibold text-green-700 mb-1">
+                    Nature's Powerhouse
+                  </p>
+                  <p className="text-sm text-gray-700">
+                    Fresh-picked moringa leaves, gently dried to lock in
+                    nutrients for maximum bioavailability.
+                  </p>
+                </div>
+
+                {/* Orange Peel Powder */}
+                <div className="flex flex-col items-start p-4 bg-white bg-opacity-80 rounded-xl shadow-md">
+                  <h3 className="text-xl font-bold mb-1">Orange Peel Powder</h3>
+                  <p className="text-sm font-semibold text-orange-600 mb-1">
+                    Citrus Vitality
+                  </p>
+                  <p className="text-sm text-gray-700">
+                    Sun-ripened organic oranges, dried and finely ground, rich
+                    in essential oils and antioxidants.
+                  </p>
+                </div>
+
+                {/* Rose Petal Powder */}
+                <div className="flex flex-col items-start p-4 bg-white bg-opacity-80 rounded-xl shadow-md">
+                  <h3 className="text-xl font-bold mb-1">Rose Petal Powder</h3>
+                  <p className="text-sm font-semibold text-pink-600 mb-1">
+                    Botanical Elegance
+                  </p>
+                  <p className="text-sm text-gray-700">
+                    Naturally dried rose petals, preserving fragrance and
+                    therapeutic benefits in fine powder form.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
