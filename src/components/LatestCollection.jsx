@@ -8,6 +8,7 @@ import ProductItem from "./ProductItem";
 import { Link } from "react-router-dom";
 import Hairbenefit from "../assets/Hairbenefit.png";
 import neemPowder from "../assets/neemPowder.png";
+import Allpowders from "../assets/Allpowders.png";
 import skinCare from "../assets/skinCare.png";
 import Holistic from "../assets/Holistic.png";
 
@@ -25,7 +26,7 @@ const LatestCollection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-5xl font-light text-[#1d3520]">
-            Premium Neem Formulations
+            Premium Herbs Formulations
           </h2>
           <p className="mt-4 text-[#3a5a40] font-light text-lg max-w-2xl mx-auto">
             Pure, potent, and precisely formulated for maximum efficacy and
@@ -133,23 +134,29 @@ const LatestCollection = () => {
       <div className="container mx-auto px-4 mt-32">
         <div className="relative rounded-2xl overflow-hidden">
           <img
-            src={neemPowder}
+            src={Allpowders}
             // alt="Premium Neem Harvesting"
             className="w-full h-[600px] object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent flex items-center">
             <div className="ml-8 sm:ml-16 max-w-lg text-white">
-              <h2 className="text-3xl sm:text-4xl font-light mb-4">
-                Sustainably Harvested
-              </h2>
-              <p className="text-lg font-light mb-6">
-                Our neem is carefully harvested from organic farms in India,
-                processed using traditional methods that preserve its natural
-                potency, and tested for maximum purity and efficacy.
-              </p>
-              <button className="px-6 py-3 bg-white text-[#3a5a40] rounded-full text-sm font-medium hover:bg-gray-100 transition-colors">
-                Discover Our Process
-              </button>
+              Veborg Organic Product Descriptions Neem Powder Sustainably
+              Harvested Our neem is carefully harvested from organic farms in
+              India, processed using traditional methods that preserve its
+              natural potency, and tested for maximum purity and efficacy.
+              Moringa Powder Nature's Nutritional Powerhouse Our moringa leaves
+              are hand-picked at peak freshness from sustainable farms, gently
+              dried to preserve their exceptional nutrient profile, and milled
+              into fine powder to deliver maximum bioavailability. Orange Peel
+              Powder Citrus Vitality Our orange peels are sourced from
+              sun-ripened organic oranges, carefully dried to lock in essential
+              oils and beneficial compounds, then finely ground to create a
+              versatile powder rich in natural antioxidants. Rose Petal Powder
+              Botanical Elegance Our rose petals are thoughtfully harvested at
+              the height of bloom, naturally dried to maintain their delicate
+              fragrance and therapeutic properties, then transformed into a fine
+              powder that captures the essence of pure rose.RetryClaude can make
+              mistakes. Please double-check responses.
             </div>
           </div>
         </div>

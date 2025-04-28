@@ -9,6 +9,7 @@ import {
   Twitter,
 } from "lucide-react";
 import { assets } from "../assets/assets";
+import SocialMediaLinks from "./SocialMediaLinks";
 
 const Footer = () => {
   return (
@@ -18,38 +19,17 @@ const Footer = () => {
           {/* Brand Column */}
           <div>
             <h2 className="text-2xl font-bold text-emerald-800 mb-5">
-              NeemPure Organics
+              Veborg Organics
             </h2>
             <p className="w-full md:w-2/3 text-gray-700 leading-relaxed">
-              NeemPure Organics offers premium-quality organic neem powder
-              sourced directly from sustainable farms. Our products are 100%
-              natural, pesticide-free, and carefully processed to preserve the
-              powerful ayurvedic properties that neem has been renowned for
-              since ancient times.
+              Vaborg Organic offers premium-quality herbal powders including
+              moringa, neem, and rose petals, sourced directly from trusted
+              sustainable farms. Our products are 100% natural, pesticide-free,
+              and carefully processed to preserve the rich nutrients and
+              traditional wellness benefits cherished for generations.
             </p>
-            <div className="mt-8 flex space-x-6">
-              <a
-                href="#"
-                className="text-emerald-700 hover:text-emerald-900 transition-all duration-300"
-                aria-label="Facebook"
-              >
-                <Facebook className="h-6 w-6" />
-              </a>
-              <a
-                href="#"
-                className="text-emerald-700 hover:text-emerald-900 transition-all duration-300"
-                aria-label="Instagram"
-              >
-                <Instagram className="h-6 w-6" />
-              </a>
-              <a
-                href="#"
-                className="text-emerald-700 hover:text-emerald-900 transition-all duration-300"
-                aria-label="Twitter"
-              >
-                <Twitter className="h-6 w-6" />
-              </a>
-            </div>
+
+            <SocialMediaLinks />
           </div>
 
           {/* Quick Links Column */}
@@ -84,7 +64,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="hover:text-emerald-800 transition-colors duration-300 inline-block relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-emerald-700 after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300"
                 >
                   Neem Benefits
@@ -125,7 +105,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-emerald-700 mt-1 flex-shrink-0" />
-                <span>123 Organic Way, Wellness Valley, CA 90210</span>
+                <span>Veborg Organics, Kota(Rajasthan)</span>
               </li>
             </ul>
 

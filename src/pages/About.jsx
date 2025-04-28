@@ -17,29 +17,30 @@ const About = () => {
           src={NeemLeaves}
           alt="Neem powder production"
         />
+
         <div className="flex flex-col justify-center gap-6 md:w-2/4 text-gray-600">
           <p>
-            NaturePure Neem was born out of a passion for natural wellness and a
-            desire to bring the ancient healing power of neem to modern
+            Vaborg Organic was born out of a passion for natural wellness and a
+            desire to bring the ancient healing power of herbs to modern
             consumers. Our journey began with a simple idea: to provide pure,
-            organic neem products that harness the incredible benefits of this
-            remarkable tree, known as "the village pharmacy" in Ayurvedic
-            tradition.
+            organic herbal products—like moringa, neem, and rose petals—that
+            harness the incredible benefits celebrated in traditional practices
+            across cultures.
           </p>
           <p>
             Since our inception, we've worked tirelessly to cultivate and
-            process the highest quality neem using sustainable farming
-            practices. Our farms are located in pristine environments, away from
-            industrial pollution, ensuring that every batch of neem powder is
-            rich in beneficial compounds and free from harmful contaminants.
+            process the highest quality botanicals using sustainable farming
+            practices. Our herbs are sourced from pristine environments, far
+            from industrial pollution, ensuring that every batch is rich in
+            beneficial nutrients and free from harmful contaminants.
           </p>
           <b className="text-gray-800">Our Mission</b>
           <p>
-            Our mission at NaturePure Neem is to empower people to embrace
-            natural solutions for health, agriculture, and personal care. We're
-            dedicated to preserving traditional knowledge while utilizing modern
-            technology to deliver premium neem products that make a positive
-            impact on both human wellbeing and environmental sustainability.
+            Our mission at Vaborg Organic is to empower people to embrace
+            natural solutions for health, beauty, and personal care. We're
+            dedicated to preserving traditional wisdom while utilizing modern
+            technology to deliver premium herbal products that support human
+            wellbeing and promote environmental sustainability.
           </p>
         </div>
       </div>
@@ -70,6 +71,38 @@ const About = () => {
             potency, and safety, ensuring you receive only the finest quality
             product.
           </p>
+        </div>
+      </div>
+
+      <div className="bg-green-100 py-10 px-6 mb-16 rounded-lg">
+        <h3 className="text-xl text-center text-green-800 mb-6">
+          The Power of Herbal Powders
+        </h3>
+        <div className="flex flex-col md:flex-row gap-8">
+          <div className="flex-1">
+            <h4 className="font-bold mb-2">Moringa Powder</h4>
+            <p className="text-gray-700 mb-4">
+              Known as the "Miracle Tree," moringa is rich in vitamins,
+              minerals, and antioxidants, supporting energy, immunity, and
+              overall wellbeing naturally.
+            </p>
+          </div>
+          <div className="flex-1">
+            <h4 className="font-bold mb-2">Orange Peel Powder</h4>
+            <p className="text-gray-700 mb-4">
+              Packed with vitamin C and antioxidants, orange peel powder
+              brightens the skin, promotes collagen production, and helps fight
+              acne and pigmentation.
+            </p>
+          </div>
+          <div className="flex-1">
+            <h4 className="font-bold mb-2">Rose Petals Powder</h4>
+            <p className="text-gray-700 mb-4">
+              Valued for its soothing and hydrating properties, rose petals
+              powder enhances skin glow, calms irritation, and adds a luxurious
+              touch to beauty rituals.
+            </p>
+          </div>
         </div>
       </div>
 

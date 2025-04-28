@@ -1,7 +1,7 @@
 import React from "react";
 import { assets } from "../assets/assets";
-import {Link} from "react-router-dom"
-import neemPowder from "../assets/neemPowder.png"
+import { Link } from "react-router-dom";
+import neemPowder from "../assets/neemPowder.png";
 
 const Hero = () => {
   return (
@@ -16,12 +16,13 @@ const Hero = () => {
             </p>
           </div>
           <h1 className="prata-regular text-3xl sm:text-4xl lg:text-5xl py-4 leading-tight">
-            Pure Neem Powder
+            VEBORG ORGANIC
           </h1>
           <p className="text-[#5a7b5c] pb-4 max-w-md">
-            Sustainably harvested from premium Azadirachta indica leaves for
-            natural skincare, haircare, and wellness
+            Sustainably sourced from premium Moringa oleifera leaves for natural
+            skincare, haircare, and wellness
           </p>
+
           <div className="flex items-center gap-3 mt-2">
             <Link
               to="/collection"

@@ -18,22 +18,37 @@ const Contact = () => {
         />
         <div className="flex flex-col justify-center items-start gap-6">
           <p className="font-semibold text-xl text-gray-600">Our Store</p>
-          <p className=" text-gray-500">
-            54709 Willms Station <br /> Suite 350, Washington, USA
-          </p>
-          <p className=" text-gray-500">
-            Tel: (415) 555-0132 <br /> Email: admin@forever.com
+          <p className="text-gray-500">
+            Khatu Shyam <br /> Sikar, Rajasthan, India <br /> PIN: 332602
           </p>
 
+          <div className="flex flex-col gap-2 text-gray-600">
+            <p className="font-semibold">Tel:</p>
+            <a
+              href="tel:6377408633"
+              className="text-green-700 hover:text-green-900 underline transition-colors duration-300"
+            >
+              +91 63774 08633
+            </a>
+
+            <p className="font-semibold mt-4">Email:</p>
+            <a
+              href="mailto:rahulkumawat50666@gmail.com"
+              className="text-green-700 hover:text-green-900 underline transition-colors duration-300"
+            >
+              rahulkumawat50666@gmail.com
+            </a>
+          </div>
+
           <p className="font-semibold text-xl text-gray-600">Our Branch</p>
-          <p className=" text-gray-500">
-            123 Civil Lines <br /> Jaipur, Rajasthan, India
+          <p className="text-gray-500">
+            Coming Soon <br /> Stay tuned for more locations!
           </p>
 
           <p className="font-semibold text-xl text-gray-600">
-            Careers at Forever
+            Careers at Vaborg Organic
           </p>
-          <p className=" text-gray-500">
+          <p className="text-gray-500">
             Learn more about our teams and job openings.
           </p>
           <button className="border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500">
