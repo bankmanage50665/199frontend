@@ -144,6 +144,16 @@ const LatestCollection = () => {
                 Veborg Organic Product Descriptions
               </h2>
 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
               <div className="grid md:grid-cols-2 gap-6">
                 {/* Neem Powder */}
                 <div className="flex flex-col items-start p-4 bg-white bg-opacity-80 rounded-xl shadow-md">
@@ -181,18 +191,25 @@ const LatestCollection = () => {
                   </p>
                 </div>
 
-                {/* Rose Petal Powder */}
-                <div className="flex flex-col items-start p-4 bg-white bg-opacity-80 rounded-xl shadow-md">
-                  <h3 className="text-xl font-bold mb-1">Rose Petal Powder</h3>
-                  <p className="text-sm font-semibold text-pink-600 mb-1">
-                    Botanical Elegance
-                  </p>
-                  <p className="text-sm text-gray-700">
-                    Naturally dried rose petals, preserving fragrance and
-                    therapeutic benefits in fine powder form.
-                  </p>
-                </div>
+               
               </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
           </div>
         </div>
