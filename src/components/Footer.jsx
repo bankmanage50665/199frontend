@@ -7,9 +7,11 @@ import {
   Facebook,
   Instagram,
   Twitter,
+  Link,
 } from "lucide-react";
 import { assets } from "../assets/assets";
 import SocialMediaLinks from "./SocialMediaLinks";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -47,20 +49,20 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="/about"
+                <NavLink
+                  to="/about"
                   className="hover:text-emerald-800 transition-colors duration-300 inline-block relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-emerald-700 after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300"
                 >
                   About Us
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="/collection"
+                <NavLink
+                  to="/collection"
                   className="hover:text-emerald-800 transition-colors duration-300 inline-block relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-emerald-700 after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300"
                 >
                   Shop
-                </a>
+                </NavLink>
               </li>
               <li>
                 <a
