@@ -24,11 +24,10 @@ const Footer = () => {
               Veborg Organics
             </h2>
             <p className="w-full md:w-2/3 text-gray-700 leading-relaxed">
-              Vaborg Organic offers premium-quality herbal powders including
-              moringa, neem, and rose petals, sourced directly from trusted
-              sustainable farms. Our products are 100% natural, pesticide-free,
-              and carefully processed to preserve the rich nutrients and
-              traditional wellness benefits cherished for generations.
+              Veborg Organics offers high-quality organic powders such as
+              moringa, neem, amla, and more—sustainably sourced and minimally
+              processed to retain their natural potency. 100% pure,
+              chemical-free, and crafted for holistic wellness.
             </p>
 
             <SocialMediaLinks />
@@ -41,12 +40,12 @@ const Footer = () => {
             </h3>
             <ul className="flex flex-col gap-4 text-gray-700">
               <li>
-                <a
-                  href="#"
+                <NavLink
+                  to="/"
                   className="hover:text-emerald-800 transition-colors duration-300 inline-block relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-emerald-700 after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300"
                 >
                   Home
-                </a>
+                </NavLink>
               </li>
               <li>
                 <NavLink
@@ -65,28 +64,28 @@ const Footer = () => {
                 </NavLink>
               </li>
               <li>
-                <a
-                  href="/"
+                <NavLink
+                  to="/neem-benefits"
                   className="hover:text-emerald-800 transition-colors duration-300 inline-block relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-emerald-700 after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300"
                 >
                   Neem Benefits
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#"
+                <NavLink
+                  to="/shipping-policy"
                   className="hover:text-emerald-800 transition-colors duration-300 inline-block relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-emerald-700 after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300"
                 >
                   Shipping Policy
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href="#"
+                <NavLink
+                  to="/privacy-policy"
                   className="hover:text-emerald-800 transition-colors duration-300 inline-block relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-emerald-700 after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300"
                 >
                   Privacy Policy
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -107,7 +106,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-emerald-700 mt-1 flex-shrink-0" />
-                <span>Veborg Organics, Kota(Rajasthan)</span>
+                <span>Veborg Organics, Kota (Rajasthan), India</span>
               </li>
             </ul>
 
@@ -135,11 +134,11 @@ const Footer = () => {
         <div className="container mx-auto px-6">
           <div className="py-6 text-sm text-center">
             <p>
-              © 2024 NeemPure Organics - All Rights Reserved. 100% Organic Neem
-              Products.
+              © 2024 Veborg Organics - All Rights Reserved. Pure Herbal
+              Wellness.
             </p>
             <p className="mt-1 text-emerald-100 text-xs">
-              Naturally Pure. Ethically Sourced. Traditionally Crafted.
+              100% Natural Powders. Ethically Sourced. Traditionally Crafted.
             </p>
           </div>
         </div>

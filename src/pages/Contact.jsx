@@ -36,7 +36,7 @@ const Contact = () => {
               href="mailto:rahulkumawat50666@gmail.com"
               className="text-green-700 hover:text-green-900 underline transition-colors duration-300"
             >
-              rahulkumawat50666@gmail.com
+              rahulkumawatr50666@gmail.com
             </a>
           </div>
 
