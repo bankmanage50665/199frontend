@@ -321,7 +321,7 @@ const Cart = () => {
 
         <div className="text-sm border-t pt-3">
           <p className="mb-1">
-            <span className="font-medium">Estimated Delivery:</span>{" "}
+            <span className="font-medium">Estimated Delivery:</span>
             {getEstimatedDeliveryDate()}
           </p>
           <p className="text-gray-600">
