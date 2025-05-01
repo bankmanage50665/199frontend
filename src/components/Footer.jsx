@@ -63,14 +63,7 @@ const Footer = () => {
                   Shop
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  to="/neem-benefits"
-                  className="hover:text-emerald-800 transition-colors duration-300 inline-block relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-emerald-700 after:left-0 after:-bottom-1 hover:after:w-full after:transition-all after:duration-300"
-                >
-                  Neem Benefits
-                </NavLink>
-              </li>
+              
               <li>
                 <NavLink
                   to="/shipping-policy"

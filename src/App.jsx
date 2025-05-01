@@ -8,6 +8,9 @@ import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
 import "react-toastify/dist/ReactToastify.css";
 import Verify from "./pages/Verify";
+import ShippingPolicy from "./components/ShippingPolicy";
+import PrivacyPolicy from "./components/PrivacyPolicy"
+
 
 const Home = lazy(() => import("./pages/Home"));
 const Collection = lazy(() => import("./pages/Collection"));
@@ -18,8 +21,6 @@ const Cart = lazy(() => import("./pages/Cart"));
 const Login = lazy(() => import("./pages/Login"));
 const PlaceOrder = lazy(() => import("./pages/PlaceOrder"));
 const Orders = lazy(() => import("./pages/Orders"));
-
-
 
 const App = () => {
   return (
@@ -122,6 +123,8 @@ const App = () => {
           }
         />
         <Route path="/verify" element={<Verify />} />
+        <Route path="shipping-policy" element={<ShippingPolicy />} />
+        <Route path="privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
     </div>
